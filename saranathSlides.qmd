@@ -1,0 +1,172 @@
+---
+title: "<span style='color:black;'>Intelligent</span> <span style='color:grey; font-weight:bold;'>Machines</span>?"
+author: "Saranath"
+format: 
+    revealjs:
+        chalkboard: true
+            
+        multiplex: true
+        transition: slide
+        background-transition: fade
+
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 300px; font-size: 2em; color : blue; "}
+**Are they really Intelligent?**
+:::
+
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 0px;"}
+**Are they really Intelligent?**
+:::
+
+::: {.fragment fragment-index=1}
+- Language
+:::
+
+::: {}
+![](Language.png){.fragment fragment-index=2}
+:::
+
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 0px;"}
+**Are they really Intelligent?**
+:::
+
+::: {.fragment fragment-index=1}
+- Vision
+:::
+
+::: {}
+![](vision.webp){.fragment fragment-index=2}
+:::
+
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 0px;"}
+**Are they really Intelligent?**
+:::
+
+::: {.fragment fragment-index=1}
+- Speech
+:::
+
+::: {}
+![](speech.webp){.fragment fragment-index=2}
+:::
+
+---
+
+## {auto-animate=true}
+
+::: {style="margin-top: 100px;" .fragment fragment-index=1}
+These are the capapabilities of **Human Beings**. 
+:::
+
+\
+
+::: {.fragment fragment-index=2}
+But still are they enough to conclude that these machines are **intelligent**?
+:::
+
+
+::: {style="margin-top: 200px; font-size: 2em;" .fragment fragment-index=3}
+**What is Intelligence?**
+:::
+
+---
+
+## {auto-animate=true}
+::: {style="margin-top: 0px; font-size: 2em;" }
+**What is Intelligence?**
+:::
+
+:::{.absolute height=400px; width=450px left=300px .fragment fragment-index=1}
+![](reasoning.webp){.fragment fragment-index=1}
+:::
+
+:::{.fragment .absolute fragment-index=2  style="margin-top: 450px;"}
+All these machines can talk, see and make decisions alike humans. So can we conclude them as the best and move on?
+:::
+
+
+
+# Let us understand what they do before jumping into a conclusion
+
+---
+
+## {auto-animate=true}
+## Consider these two diagrams
+
+
+
+:::{.absolute width=500px height=500px .fragment fragment-index=1}
+![](circle.png)
+
+<span class="absolute fragment" left=140px top=390px fragment-index=2> **Circle : $100$** </span>
+
+:::
+
+:::{.absolute left=500px height=500px top=60px .fragment fragment-index=3}
+![](circle_1.png)
+
+<span class="absolute fragment" left=170px top=410px fragment-index=4> **Circle : $80$** </span>
+
+:::
+
+:::{.absolute bottom=0px .fragment fragment-index=5}
+Imagine the right image is produced by the machine when we asked it to give a circle.
+How can we say the machine to correct itself?
+:::
+
+
+
+
+## Our Objective
+
+
+
+:::{}
+![](circle_1.png)
+
+<span class="absolute" left=240px top=520px> **Circle : $80$** </span>
+
+:::
+
+:::{.fragment fragment-index=1}
+We have to somehow get this circle close to the original ones.
+:::
+
+## Some Common notations
+
+\
+
+:::{.fragment fragment-index=1}
+We call $\textbf{y}$ as the true output. In our case $100$
+:::
+
+\ 
+
+:::{.fragment fragment-index=2}
+We call $\hat{\textbf{y}}$ as the predicted output. In our case $80$
+:::
+
+\
+
+:::{.fragment fragment-index=3}
+**Revised Objective**
+:::
+
+:::{.fragment fragment-index=4 .absolute left=200px}
+$\text{min} \ distance(\textbf{y}, \hat{\textbf{y}})$
+:::
