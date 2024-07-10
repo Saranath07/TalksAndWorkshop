@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="922" height="414" style="
+        width:922px;
+        height:414px;
+        background: #FFF;
+        fill: none;
+">
+        <svg xmlns="http://www.w3.org/2000/svg"/>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area"><g class="shapes-region" style="stroke: black; fill: none;"><g class="composite-shape axis2d" style="stroke-width: 1; stroke: rgb(0, 0, 0);"><path class="real" d=" M251,326.9 L664,326.9 M292.3,51.5 L292.3,357.5"/><path d=" M657,321.9 L664,326.9 L657,331.9"/><path d=" M287.3,58.5 L292.3,51.5 L297.3,58.5"/></g><g class="arrow-line"><path class="connection real" stroke-dasharray="" d="  M371,142.5 C468,-133.5 510,583.5 593,56.5" style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none; fill-opacity: 1;"/></g><g class="composite-shape"><path class="real" d=" M520,249.5 C520,244.81 523.81,241 528.5,241 C533.19,241 537,244.81 537,249.5 C537,254.19 533.19,258 528.5,258 C523.81,258 520,254.19 520,249.5 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: rgb(65, 117, 5); fill-opacity: 1;"/></g><g/></g><g/><g/><g/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="920" height="412" style="width:920px;height:412px;font-family:LatinModern-Math, LatinModern, Asana-Math, Asana;background:#FFF;"></svg>
+</svg>
