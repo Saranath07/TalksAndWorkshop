@@ -11,7 +11,7 @@ class GradientDescent(Scene):
         
         # Create axes
         axes = Axes(
-            x_range=[-6, 6, 1],
+            x_range=[-3, 6, 1],
             y_range=[0, 30, 5],
             axis_config={"color": BLUE}
         )
@@ -44,10 +44,10 @@ class GradientDescent(Scene):
         self.add(eq1, eq2)
 
         # Initial gradient and value equations
-        grad_eq_pos = MathTex(f"f'(x_{{pos}}) = 2*{x_init_pos} = {2*x_init_pos}").to_corner(DL).scale(0.6)
-        grad_eq_neg = MathTex(f"f'(x_{{neg}}) = 2*{x_init_neg} = {2*x_init_neg}").next_to(grad_eq_pos, DOWN).scale(0.6)
-        value_eq_pos = MathTex(f"f(x_{{pos}}) = {x_init_pos}^2 = {func(x_init_pos)}").next_to(eq2, DOWN).scale(0.6)
-        value_eq_neg = MathTex(f"f(x_{{neg}}) = {x_init_neg}^2 = {func(x_init_neg)}").next_to(value_eq_pos, DOWN).scale(0.6)
+        grad_eq_pos = MathTex(f"f'(x_{{pos}}) = 2*{x_init_pos} = {2*x_init_pos}").to_corner(DL).scale(0.5)
+        grad_eq_neg = MathTex(f"f'(x_{{neg}}) = 2*{x_init_neg} = {2*x_init_neg}").next_to(grad_eq_pos, DOWN).scale(0.5)
+        value_eq_pos = MathTex(f"f(x_{{pos}}) = {x_init_pos}^2 = {func(x_init_pos)}").next_to(eq2, DOWN).scale(0.5)
+        value_eq_neg = MathTex(f"f(x_{{neg}}) = {x_init_neg}^2 = {func(x_init_neg)}").next_to(value_eq_pos, DOWN).scale(0.5)
         self.add(grad_eq_pos, grad_eq_neg, value_eq_pos, value_eq_neg)
 
         # Gradient descent steps
@@ -69,10 +69,10 @@ class GradientDescent(Scene):
             path_neg.add_points_as_corners([new_position_neg])
 
             # Update equations
-            new_grad_eq_pos = MathTex(f"f'(x_{{pos}}) = 2*{new_x_pos:.2f} = {2*new_x_pos:.2f}").to_corner(DL).scale(0.6)
-            new_grad_eq_neg = MathTex(f"f'(x_{{neg}}) = 2*{new_x_neg:.2f} = {2*new_x_neg:.2f}").next_to(new_grad_eq_pos, DOWN).scale(0.6)
-            new_value_eq_pos = MathTex(f"f(x_{{pos}}) = {new_x_pos:.2f}^2 = {new_y_pos:.2f}").next_to(eq2, DOWN).scale(0.6)
-            new_value_eq_neg = MathTex(f"f(x_{{neg}}) = {new_x_neg:.2f}^2 = {new_y_neg:.2f}").next_to(new_value_eq_pos, DOWN).scale(0.6)
+            new_grad_eq_pos = MathTex(f"f'(x_{{pos}}) = 2*{new_x_pos:.2f} = {2*new_x_pos:.2f}").to_corner(DL).scale(0.5)
+            new_grad_eq_neg = MathTex(f"f'(x_{{neg}}) = 2*{new_x_neg:.2f} = {2*new_x_neg:.2f}").next_to(new_grad_eq_pos, DOWN).scale(0.5)
+            new_value_eq_pos = MathTex(f"f(x_{{pos}}) = {new_x_pos:.2f}^2 = {new_y_pos:.2f}").next_to(eq2, DOWN).scale(0.5)
+            new_value_eq_neg = MathTex(f"f(x_{{neg}}) = {new_x_neg:.2f}^2 = {new_y_neg:.2f}").next_to(new_value_eq_pos, DOWN).scale(0.5)
 
             self.play(
                 ball_pos.animate.move_to(new_position_pos),

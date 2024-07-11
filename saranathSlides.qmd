@@ -292,3 +292,39 @@ We are focused more in the direction. So to go downwards, <span class="fragment"
 ::: {style="margin-top: 0px;"}
 **So this is what happens behind the screens..**
 ::: 
+
+:::{.fragment fragment-index=1 .absolute top=100px}
+Is there any problem with these models?
+:::
+
+::: {.fragment fragment-index=2 .absolute left=100px top=200px bottom=70px style="width:700px; height:700px"}
+![](vision.webp){.fragment fragment-index=2}
+:::
+
+:::{.fragment fragment-index=3 .absolute bottom=0px}
+What's wrong with this image which was made by google photos?
+:::
+
+## {auto-animate="true"}
+
+::: {style="margin-top: 200px; font-size: 2em; color : black; "}
+**Let us understand about some of the problems associated with these models**
+:::
+
+
+
+## {auto-animate="true"}
+
+::: {style="margin-top: 0px;"}
+**Let us understand about some of the problems associated with these models**
+::: 
+
+:::{.incremental}
+- Bias
+- Fairness
+- Explainability
+- Privacy
+:::
+
+## Bias
+
