@@ -277,3 +277,18 @@ We are focused more in the direction. So to go downwards, <span class="fragment"
   <source src="media/videos/prepareVideo/1080p60/GradientDescent.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+## {auto-animate="true"}
+
+::: {style="margin-top: 300px; font-size: 2em; color : black; "}
+**So this is what happens behind the screens..**
+:::
+
+
+
+## {auto-animate="true"}
+
+::: {style="margin-top: 0px;"}
+**So this is what happens behind the screens..**
+::: 
