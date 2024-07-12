@@ -517,7 +517,7 @@ East Stroudsberg Stroudsberg
 ```
 :::
 
-:::{.fragment .absolute left=50px top=200px}
+:::{.fragment .absolute left=100px top=200px}
 $\downarrow$
 :::
 
@@ -527,7 +527,7 @@ $\downarrow$
 :::
 :::
 
-:::{.fragment .absolute left=50px bottom=200px}
+:::{.fragment .absolute left=100px bottom=200px}
 $\downarrow$
 :::
 
@@ -545,4 +545,51 @@ Peter Wxxx
 xxx@xxx.xxx
 Phone : +x8xx45xx
 ```
+:::
+
+:::{.fragment .absolute right=0px top=50px}
+:::{style="width:500px; height:500px"}
+![](MedicalData.webp)
+:::
+:::
+
+:::{.fragment .absolute right=0px bottom=50px}
+```
+Medical Data should be more 
+protected as it might lead 
+to various problems if leaked
+```
+:::
+
+ ## Guess the person
+
+<video width="800" controls>
+  <source src="Deep Fake Video Sample, Speech By Obama.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## 
+
+
+::: {style="margin-top: 0px; font-size: 2em;" }
+**Though this looks realistic, this is not real.**
+:::
+
+:::{.fragment}
+:::{style="width:700px; height:700px"}
+![](DeepFakeRatanTata.png)
+:::
+:::
+
+## Some problems which AI did not solve yet!! 
+(Atleast till now)
+
+:::{.fragment .absolute left=0px}
+:::{style="width:700px; height:700px"}
+![](ArcPrize.png)
+:::
+:::
+
+:::{.fragment .absolute right=0px top=300px}
+[Game Link](https://arcprize.org/play?task=00576224){preview-link="false"}
 :::
