@@ -517,23 +517,27 @@ East Stroudsberg Stroudsberg
 ```
 :::
 
-:::{.fragment}
+:::{.fragment .absolute left=50px top=200px}
 $\downarrow$
 :::
 
-::: {data-id="box1" auto-animate-delay="0" style="background: lightblue; width: 200px; height: 150px; margin: 10px; display: flex; justify-content: center; align-items: center;" .fragment}
+:::{.fragment .absolute top=270px left=50px}
+::: {data-id="box1" auto-animate-delay="0" style="background: lightblue; width: 200px; height: 150px; margin: 10px; display: flex; justify-content: center; align-items: center;"}
 <span>LLM</span>
 :::
+:::
 
-:::{.fragment}
+:::{.fragment .absolute left=50px bottom=200px}
 $\downarrow$
 :::
 
+:::{.absolute left=0px bottom=150px}
 :::{.fragment style="color:red"}
 *Memorized Text*
 :::
+:::
 
-:::{.fragment}
+:::{.fragment .absolute bottom=0px}
 ```
 xxx Corporation Seabank Centre
 xxxx Marine Parade South Port
