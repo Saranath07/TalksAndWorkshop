@@ -3,10 +3,12 @@ title: "<span style='color:black;'>Intelligent</span> <span style='color:grey; f
 author: "Saranath"
 format: 
     revealjs:
+        pdfexport : true
         chalkboard: true
         multiplex: true
         transition: slide
         background-transition: fade
+        keep-tex: true
 
 ---
 
