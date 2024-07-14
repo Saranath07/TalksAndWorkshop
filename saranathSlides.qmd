@@ -593,3 +593,12 @@ to various problems if leaked
 :::{.fragment .absolute right=0px top=300px}
 [Game Link](https://arcprize.org/play?task=00576224){preview-link="false"}
 :::
+
+## References
+
+
+:::{.non-incremental}
+- [Mr. Arun Prakash - AI4Bharat](https://iitm-pod.slides.com/arunprakash_ai)
+- [ACM India - Responsible AI](https://precogatiiit.notion.site/ACM-India-Summer-School-on-Responsible-Safe-AI-76108c53564d4dc4af46c1d3bed52946)
+- [IBM Youtube](https://www.youtube.com/watch?v=QzY57FaENXg)
+:::
